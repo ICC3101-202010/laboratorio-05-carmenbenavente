@@ -21,5 +21,14 @@ namespace Solucion_Lab_21_abril
             Thread.Sleep(2000);
         }
 
+        public delegate void EmailSentEventHandler(object source, EmailSentEventArgs args);
+        public event EmailSentEventHandler EmailSent;
+        protected virtual void OnEmailSent()
+        {
+            if (EmailSent != null)
+            {
+                EmailSent(this, new EmailSentEventArgs() { });
+            }
+        }
     }
 }

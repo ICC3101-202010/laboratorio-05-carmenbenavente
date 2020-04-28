@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Gianfranco\\.nuget\\packages\\": {}
+    "C:\\Users\\56984\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal\\UANDES\\Semestre V\\Laboratorio POO\\Lab_21_abril_solucion_descargable\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril.csproj",
+      "projectUniqueName": "C:\\Users\\56984\\Desktop\\Universidad\\Progra\\laboratorio-05-carmenbenavente\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril.csproj",
       "projectName": "Solucion_Lab_21_abril",
-      "projectPath": "D:\\Personal\\UANDES\\Semestre V\\Laboratorio POO\\Lab_21_abril_solucion_descargable\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril.csproj",
-      "packagesPath": "C:\\Users\\Gianfranco\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal\\UANDES\\Semestre V\\Laboratorio POO\\Lab_21_abril_solucion_descargable\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril\\obj\\",
+      "projectPath": "C:\\Users\\56984\\Desktop\\Universidad\\Progra\\laboratorio-05-carmenbenavente\\Solucion_Lab_21_abril\\Solucion_Lab_21_abril.csproj",
+      "packagesPath": "C:\\Users\\56984\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\56984\\Desktop\\Universidad\\Progra\\laboratorio-05-carmenbenavente\\Solucion_Lab_21_abril\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gianfranco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\56984\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
