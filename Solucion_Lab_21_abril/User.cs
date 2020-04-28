@@ -7,7 +7,7 @@ namespace Solucion_Lab_21_abril
 {
     class User
     {
-        public void OnEmailSent(object source, EmailSentEventArgs args)
+        public void OnEmailSent(object source, EventArgs args)
         {
             Thread.Sleep(2000);
             Console.WriteLine($"\n¿Quiere verificar su correo? 1. Si, 2. No");
@@ -15,16 +15,16 @@ namespace Solucion_Lab_21_abril
             string r = Console.ReadLine();
             if (r == "1")
             {
-                source.OnEmailSent();
+                EmailVerified(source, args);
             }
         }
-        public delegate void EmailVerifiedEventHandler(object source, EmailVerifiedEventArgs args);
+        public delegate void EmailVerifiedEventHandler(object source, EventArgs args);
         public event EmailVerifiedEventHandler EmailVerified;
-        protected virtual void OnEmailVerified()
+        protected virtual void OnEmailVerified(object source, EventArgs args)
         {
             if (EmailVerified != null)
             {
-                EmailVerified(this, new EmailVerifiedEventArgs() { });
+                EmailVerified(this,args);
             }
         }
 
